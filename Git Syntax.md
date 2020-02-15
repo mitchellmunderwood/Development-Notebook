@@ -71,7 +71,7 @@ git log
 git remote add origin https://github.address
 git push origin master
 *username: sassypigeon
-*password: shortSun96!
+*password: ***********
 ```
 
 ### To Change the Remote Repo setting of a local Repo
