@@ -32,7 +32,9 @@
 
 `rm` 	    remove: used for deleting files and folders from the directory tree. This type of deletion is permanent, as oppsed to placing a file inside the trash bin     
 
+>`rm new_file.txt` deletes a file
 >
+>`rm -R new_directory` deletes a directory, utilizes the `-R` flag in conjuction with the `rm` command
 
 `echo`
 
