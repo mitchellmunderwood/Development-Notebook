@@ -55,7 +55,7 @@ https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl
 
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-
+https://raw.githubusercontent.com/joshnh/Git-Commands/master/READMEpt.md
 
 ### To Create a folder, commit changes, and push to a remote repo
 
