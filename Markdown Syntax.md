@@ -1,53 +1,129 @@
-# **Markdown Syntax**
+## Markdown Syntax
+---
 
-## *Headers*
+## *Headers:*
 
+```bash 
+## Header 1
+### Header 2
+#### Header 3
+```
 # Header 1
 ## Header 2
 ### Header 3
+
+```bash
+#### Header 4
+##### Header 5
+###### Header 6
+```
 #### Header 4
 ##### Header 5
 ###### Header 6
 
-| Syntax | Description |
-|:---|:--- |
-|# |Header 1|
-|##|Header 2 |
-|###|Header 3 |
-|#### |Header 4| 
-|##### |Header 5| 
+---
 
-## *Italics*
+## *Italics:*
 
-*Italics Method 1*
+```bash
+*Italics*
+_Italics_
+```
+*Italics* <br>
+_Italics_
 
-_Italics Method 2_
+---
 
-| Syntax | Description |
-|:---|:--- |
-|* |Italics Method 1|
-|_ |Italics Method 2|
+## *Boldface:*
+```bash
+**Boldface**
+__Boldface__
+```
+**Boldface** <br>
+__Boldface__
 
-## *Underlines*
+---
 
-## *Boldface*
+## *Strikethrough:*
+```bash
+~~Strikethrough~~
+```
+~~Strikethrough~~
 
-## *Tables*
+---
 
-## *Block Quotes*
+## *Tables:*
+Colons can be used to align columns.
+```bash
+| Header 1      | Header 2      | Header 3      |
+| ------------- |:-------------:| -------------:|
+| left-algined  |center-aligned | right-aligned |
 
-## *Ordered Lists*
+```
 
-## *Unordered Lists*
+| Header 1      | Header 2      | Header 3      |
+| ------------- |:-------------:| -------------:|
+| left-algined  |center-aligned | right-aligned |
 
-## *Code Blocks*
+<br>
 
-## *Fenced Code Blocks*
+---
 
-## *Links*
+## *Block Quotes:*
+```bash
+```
+---
 
-## *Images*
+## *Ordered Lists:*
+```bash
+1. List Item 1
+2. List Item 2
+3. List Item 3
+```
+1. List Item 1
+2. List Item 2
+3. List Item 3
 
-## *Task Lists*
+---
 
-## *Backslash Escapes*
+## *Unordered Lists:*
+```bash
+- List Item 1
+- List Item 2
+- List Item 3
+```
+- List Item 1
+- List Item 2
+- List Item 3
+
+---
+
+## *Code Blocks:*
+```bash
+```
+---
+
+## *Fenced Code Blocks:*
+```bash
+```
+---
+
+## *Links:*
+```bash
+```
+---
+
+## *Images:*
+```bash
+```
+---
+
+## *Task Lists:*
+```bash
+```
+---
+
+## *Backslash Escapes:*
+```bash
+```
+---
