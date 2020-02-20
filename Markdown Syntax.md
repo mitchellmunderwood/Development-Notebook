@@ -214,6 +214,9 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
+when using local reference links, the space character is not supported. Trying using file names without spaces, or use "%20" in place of a space character in the markdown link
+
+
 -----
 
 ## *Image Notes*
