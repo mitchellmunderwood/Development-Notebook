@@ -25,7 +25,7 @@
 
 ## *Italics:*
 
-```bash
+```
 *Italics*
 _Italics_
 ```
@@ -35,7 +35,7 @@ _Italics_
 ---
 
 ## *Boldface:*
-```bash
+```
 **Boldface**
 __Boldface__
 ```
@@ -45,7 +45,7 @@ __Boldface__
 ---
 
 ## *Strikethrough:*
-```bash
+```
 ~~Strikethrough~~
 ```
 ~~Strikethrough~~
@@ -54,9 +54,9 @@ __Boldface__
 
 ## *Tables:*
 Colons can be used to align columns.
-```bash
+```
 | Header 1      | Header 2      | Header 3      |
-| ------------- |:-------------:| -------------:|
+| :------------ |:-------------:| -------------:|
 | left-algined  |center-aligned | right-aligned |
 
 ```
@@ -70,7 +70,7 @@ Colons can be used to align columns.
 ---
 
 ## *Block Quotes:*
-```bash
+```
 > This is a block quote. There should be a vertical line to the left
 ```
 > This is a block quote. There should be a vertical line to the left
@@ -78,7 +78,7 @@ Colons can be used to align columns.
 ---
 
 ## *Ordered Lists:*
-```bash
+```
 1. List Item 1
 2. List Item 2
 3. List Item 3
@@ -90,7 +90,7 @@ Colons can be used to align columns.
 ---
 
 ## *Unordered Lists:*
-```bash
+```
 - List Item 1
 - List Item 2
 - List Item 3
@@ -112,12 +112,12 @@ The code in the `backticks` will be formatted distinctly
 
 ## *Fenced Code Blocks:*
 Using three backticks will create a Fenced Code Block. You can add a specifying keyword to describe the code language being used and special highlightling rules may apply.
-```bash
-```bash
+```
+```
 Take out the escape backslash and this will render a code block 
 \```
 ```
-```bash
+```
 Take out the escape backslash and this will render a code block 
 ```
 
@@ -141,13 +141,13 @@ The next method creates a link to the address in parentheses and displays the co
 ---
 
 ## *Images:*
-```bash
+```
 ```
 
 ---
 
 ## *Task Lists:*
-```bash
+```
 - [ ] Open Task Item
 - [X] Closed Task Item
 ```
@@ -160,7 +160,7 @@ The next method creates a link to the address in parentheses and displays the co
 ## *Backslash Escapes:*
 Any character preceeded by a backslash will be rendered as a regular character.
 
-```bash
+```
 With a backslash this \`code\` quote will not work.
 
 ```
