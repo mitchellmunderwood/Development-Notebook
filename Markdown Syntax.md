@@ -53,16 +53,16 @@ __Boldface__
 ---
 
 ## *Tables:*
-Colons can be used to align columns.
+A combination of colons and dashes is used to assign alignment
 ```
 | Header 1      | Header 2      | Header 3      |
-| :------------ |:-------------:| -------------:|
+| :--           |      :-:      |            --:|
 | left-algined  |center-aligned | right-aligned |
 
 ```
 
 | Header 1      | Header 2      | Header 3      |
-| ------------- |:-------------:| -------------:|
+| :-- |:-:| --:|
 | left-algined  |center-aligned | right-aligned |
 
 <br>
