@@ -1,6 +1,24 @@
 ## **Markdown Syntax**
 ---
+### Table of Contents
+[Header](#Headers) <br>
+[Italics](#Italics) <br>
+[Boldface](#Boldface) <br>
+[Strikethrough](#Strikethrough) <br>
+[Tables](#Tables) <br>
+[Block Quotes](#Block%20Quotes) <br>
+[Ordered Lists](#Ordered%20Lists) <br>
+[Unordered Lists](#Unordered%20Lists) <br>
+[Code Quotes](#Code%20Quotes) <br>
+[Fenced Code Blocks](#Fenced%20Code%20Blocks) <br>
+[Links](#Links) <br>
+[Images](#Images) <br>
+[Task Lists](#Task%20Lists) <br>
+[Backlash Escapes](#Backlash%20Escapes) <br>
+[Lines Across](#Lines%20Across) <br>
+[References](#References) <br>
 
+---
 ## *Headers:*
 
 ```
