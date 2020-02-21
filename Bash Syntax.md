@@ -1,22 +1,39 @@
 # Bash Syntax
+## Table of Contents 
+[Change_Directory](#Change_Directory) <br>
+[Print_Working_Directory](#Print_Working_Directory) <br>
+...etc...
+___
+## *Change_Directory*
+**cd** +stuff
+```
+cd FolderName   descend from the current folder into the subfolder with the name of FolderName
+cd ..           Takes you to the directory one level about your current level
+cd ~            Takes you to your root directory
+cd ~/Desktop    Changes to the root directory and then to the Desktop folder one level down
+```
+___
 
-`cd`		 change directory 
 
-> `cd ..` ascend one node up in the file directory tree
->
-> `cd ~` changes to the home directory of the user
->
-> `cd ~/Desktop` changes to the home folder and then to the Desktop folder one level down
->
-> `cd FolderName` decend from the current folder into the subfolder with the specficied FolderName
 
-`pwd`	   print working directory
+## *Print_Working_Directory*
+**pwd**
 
-> `pwd` causes the terminal to output the folder address of the current node
+```
+pwd             causes the terminal to output the folder address of the current folder
+```
+___
+## *List_Contents*
+**ls**
 
-`ls`		 list 
+```
+ls             The Terminal will output a all files and folders within the current folder 
+```
+___
 
-> `ls` causes the terminal to output a list of the files and folders contained within the current folder 
+
+## Update what is below into new format
+
 
 `open` 	open
 
