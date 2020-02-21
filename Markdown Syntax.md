@@ -53,7 +53,7 @@ __Boldface__
 ---
 
 ## *Tables:*
-A combination of colons and dashes is used to assign alignment
+A combination of colons and dashes is used to assign alignment.
 ```
 | Header 1      | Header 2      | Header 3      |
 | :--           |      :-:      |            --:|
@@ -71,9 +71,9 @@ A combination of colons and dashes is used to assign alignment
 
 ## *Block Quotes:*
 ```
-> This is a block quote. There should be a vertical line to the left
+> This is a block quote. There should be a vertical line to the left.
 ```
-> This is a block quote. There should be a vertical line to the left
+> This is a block quote. There should be a vertical line to the left.
 
 ---
 
@@ -103,22 +103,22 @@ A combination of colons and dashes is used to assign alignment
 
 ## *Code Quotes:*
 ```markdown
-The code in the `backticks` will be formatted distinctly
+The code in the `backticks` will be formatted distinctly.
 ```
 
-The code in the `backticks` will be formatted distinctly
+The code in the `backticks` will be formatted distinctly.
 
 ---
 
 ## *Fenced Code Blocks:*
 Using three backticks will create a Fenced Code Block. You can add a specifying keyword to describe the code language being used and special highlightling rules may apply.
 ```
-```
-Take out the escape backslash and this will render a code block 
+\```
+Take out the escape backslashes and this will render a code block. 
 \```
 ```
 ```
-Take out the escape backslash and this will render a code block 
+This will render a code block. 
 ```
 
 ---
@@ -131,7 +131,7 @@ http://github.com
 ```
 http://github.com<br>
 
-The next method creates a link to the address in parentheses and displays the content in the square brackets
+The next method creates a link to the address in parentheses and displays the content in the square brackets.
 ```
 [GitHub](http://github.com)
 ```
@@ -141,8 +141,24 @@ The next method creates a link to the address in parentheses and displays the co
 ---
 
 ## *Images:*
+
+Inline Style
 ```
+![alt text](https://pupsterpassion.com/wp-content/uploads/2019/10/cute-puppy.png "Call of the Wild")
 ```
+
+![alt text](https://pupsterpassion.com/wp-content/uploads/2019/10/cute-puppy.png "Call of the Wild")
+
+Reference Style
+```
+![alt text][logo]
+
+[logo]: https://pupsterpassion.com/wp-content/uploads/2019/10/cute-puppy.png "Call of the Wild"
+```
+![alt text][logo]
+
+[logo]: https://pupsterpassion.com/wp-content/uploads/2019/10/cute-puppy.png "Call of the Wild"
+
 
 ---
 
@@ -162,9 +178,8 @@ Any character preceeded by a backslash will be rendered as a regular character.
 
 ```
 With a backslash this \`code\` quote will not work.
-
 ```
-With a backslash this \`code\` quote will not work
+With a backslash this \`code\` quote will not work.
 
 ---
 
@@ -219,19 +234,3 @@ when using local reference links, the space character is not supported. Trying u
 
 -----
 
-## *Image Notes*
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-Here's our logo (hover to see the title text):
-
-Inline-style: alt text
-
-Reference-style: alt text
