@@ -1,14 +1,14 @@
 ## **Markdown Syntax**
 ---
 ### Table of Contents
-[Header](#Headers) <br>
+[Header](<#Headers>) <br>
 [Italics](#Italics) <br>
 [Boldface](#Boldface) <br>
 [Strikethrough](#Strikethrough) <br>
 [Tables](#Tables) <br>
-[Block Quotes](#Block%20Quotes) <br>
+[Block Quotes](#Block Quotes) <br>
 [Ordered Lists](#Ordered%20Lists) <br>
-[Unordered Lists](#Unordered%20Lists) <br>
+[Unordered Lists](<#Unordered Lists>) <br>
 [Code Quotes](#Code%20Quotes) <br>
 [Fenced Code Blocks](#Fenced%20Code%20Blocks) <br>
 [External Links](#External%20Links) <br>
@@ -202,7 +202,7 @@ http://www.website.com or <http://www.website.com>.
 [1]: http://chase.com
 
 ---
-## *Internal Links* 
+## *Internal Links:* 
 Internal Links can be created to route to different parts of the markdown file by using the bracket & parenthesis notation, puting the link content in the brackets, and the link address in the parentheses. The link address will be the characters that would normally signify a header, but markdown will process this as a link to the header with the same name as that specified.
 ```
 [Header](#Headers) 
