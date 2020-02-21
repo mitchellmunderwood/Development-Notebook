@@ -1,0 +1,2 @@
+# About This Repo
+This is a notebook with content cataloging different languages I am starting to use. I hope it can be of quick and intuitive help to myself and anyone else. [The Table of Contents](Table%20of%20Contents.md) file lists the links to the notes into the repo so far.
