@@ -15,8 +15,9 @@
 [Internal_Links](#Internal_Links) <br>
 [Images](#Images) <br>
 [Task_Lists](#Task_Lists) <br>
-[Backlash_Escapes](#Backlash_Escapes) <br>
+[Backslash_Escapes](#Backslash_Escapes) <br>
 [Lines_Across](#Lines_Across) <br>
+[New_Lines](#New_lines) <br>
 [References](#References) <br>
 
 ---
@@ -274,6 +275,15 @@ ___
 <br>
 
 ---
+
+## *New_Lines*
+The page break operator from HTML is supported in markdown. Just add at the end of a line of code or drop down to a new line and then add.
+```
+This text will be <br> on the next line
+```
+This text will be <br> on the next line
+
+___
 
 ## *References*
 
