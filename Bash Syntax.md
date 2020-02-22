@@ -4,35 +4,54 @@
 [Print_Working_Directory](#Print_Working_Directory) <br>
 ...etc...
 ___
-## *Change_Directory*
-**cd** +stuff
-```
-cd FolderName   descend from the current folder into the subfolder with the name of FolderName
-cd ..           Takes you to the directory one level about your current level
-cd ~            Takes you to your root directory
-cd ~/Desktop    Changes to the root directory and then to the Desktop folder one level down
-```
+## *Helpful Concepts to Understand*
+### **Directories vs. Folders** <br>
+Most people only use the term folder to refer to 'that thing that files are grouped together in on my computer'. Folders can do other things than just store files and are not exclusively used that way. The folders that are used specifcally to store files have a specific name, and that is 'directory'.
+
+[superuser.com reference](https://superuser.com/questions/187900/what-is-the-difference-between-a-directory-and-a-folder)
+
+### **Directory Paths**
+
+Directories are nested within each other. A 'Directory Path' is a sequence that listes the specific directories that connect the directory that you are in to another directory at a more nested level. It is represented as a sequence of directory names, seperated by a a forward slash `/`. Directory Paths output from the terminal will usually be the path from the highest level folder, known as the 'Home Directory', to the current folder you are in, known as the 'Working Directory'. Directory paths that start at the working directory and go elsewhere are uses in places such as hyperlinks within files.
+
+[techterms.com reference](https://techterms.com/definition/path)
 ___
 
 ## *Print_Working_Directory*
-**pwd**
 
-| Command | Return | Side Effect |
-|---|---|---|
-|**`pwd`**  |the terminal returns the address of the current folder | |
+The `Print Working Directory` command will return the directory path of the working directory relative to the home directory.
 
-| Command | Return | Side Effect |
+| Input | Return | Side Effect |
 |---|---|---|
-|`pwd`  |the terminal returns the address of the current folder | |
+|`pwd`  |the terminal returns the address of the working directory relative to the home directory | |
+<br>
 
 ___
-## *List_Contents*
-**ls**
+## *List_Directories*
+The `List Directories` command will return a list of all directories and files nested within the working directory <br>
+| Input | Return | Side Effect |
+|---|---|---|
+|`ls`  |the terminal returns a list of all files and folders nested within the working directory | |
+<br>
 
-```
-ls              The Terminal will output a all files and folders within the current folder 
-```
 ___
+
+## *Change_Directory*
+
+The `Change Directory` command is how you change the working directory to another directory, going up or down one level at a time, or returning to the home directory and navigating from there.
+| Input | Return | Side Effect |
+|---|---|---|
+|`cd FolderName`  | nil|The working directory transitions down a level to the folder named FolderName |
+|`cd .. `          | nil|The working directory transitions up a level|
+|`cd`| nil |The work directory becomes the home directory
+|`cd ~ `            | nil|The working directory becomes the home directory. The '~' represents the home directory when using the `cd` command.|
+|`cd ~/Desktop`    | nil|The working directory starts at the home directory and the transitions down to the Desktop folder. When navigating to a folder from the home directory, the '~' is required.|
+<br>
+
+___
+
+
+
 ## *Open_a_File,_Folder,_or_Application*
 **open** +stuff
 ```
@@ -40,7 +59,7 @@ open                          Opens the current folder in the finder
 open -a ApplicationName       Opens the application with the specied ApplicationName
 ```
 ___
-## *Make_a_Directory*
+## *Make_Directory*
 **mkdir** + FolderName
 
 ```
@@ -74,6 +93,12 @@ ___
 `touch`   touch: command that creates files and can also be used to adjust file timestamps
 
 > `touch NewFile.txt` creates a file of type text `txt` with the name `NewFile`
+ 
+<br>
+<br>
+<br>
+
+# TO BE FORMATTED
 
 `man`
 
