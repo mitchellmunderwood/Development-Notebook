@@ -21,17 +21,17 @@ ___
 
 The `Print Working Directory` command will return the directory path of the working directory relative to the home directory.
 
-| Input | Return | Side Effect |
-|---|---|---|
-|`pwd`  |the terminal returns the address of the working directory relative to the home directory | None |
+| Input | Return |
+|---|---|
+|`pwd`  |the terminal returns the address of the working directory <br> relative to the home directory | None |
 <br>
 
 ___
-## List_Directories
+## List
 The `List Directories` command will return a list of all directories and files nested within the working directory <br>
-| Input | Return | Side Effect |
-|---|---|---|
-|`ls`  |the terminal returns a list of all files and folders nested within the working directory | None |
+| Input | Return | 
+|---|---|
+|`ls`  |the terminal returns a list of all files and folders nested within <br> the working directory | 
 <br>
 
 ___
@@ -39,13 +39,13 @@ ___
 ## Change_Directory
 
 The `Change Directory` command is how you change the working directory to another directory, going up or down one level at a time, or returning to the home directory and navigating from there.
-| Input | Return | Side Effect |
-|---|---|---|
-|`cd Name`  | nil|The working directory transitions down a level to the folder named Name |
-|`cd .. `          | nil|The working directory transitions up a level|
-|`cd`| nil |The work directory becomes the home directory
-|`cd ~ `            | nil|The working directory becomes the home directory. The '~' represents the home directory when using the `cd` command.|
-|`cd ~/Docs`    | nil|The working directory starts at the home directory and the transitions down to the Docs folder. When navigating to a folder from the home directory, the '~' is required.|
+| Input  | Side Effect |
+|-----------------|--------|
+|`cd Name`  |The working directory transitions down a level to the folder <br> named Name |
+|`cd .. `          |The working directory transitions up a level|
+|`cd` |The work directory becomes the home directory
+|`cd ~ `           |The working directory becomes the home directory. The <br> '~' represents the home directory when using the `cd` command.|
+|`cd ~/Docs` |The working directory starts at the home directory and the <br> transitions down to the Docs folder. When navigating to a <br> folder from the home directory, the '~' is required.|
 <br>
 
 ___
@@ -54,53 +54,81 @@ Reformatt what is below in above style
 
 ---
 
-## *Open_a_File,_Folder,_or_Application*
-**open** +stuff
-```
-open                          Opens the current folder in the finder
-open -a ApplicationName       Opens the application with the specied ApplicationName
-```
+## Open
+The `Open` command is used to open applications and files from the Terminal.
+| Input  | Side Effect |
+|-----------------|--------|
+| `open`| Opens the working directory in the finder|
+| `open -a AppName`| Opens the application with the name AppName|
+<br>
+
 ___
-## *Make_Directory*
-**mkdir** + FolderName
+## Make_Directory
+The `Make Directory` command is used to create a directory from the terminal.
+| Input  | Side Effect |
+|-----------------|--------|
+|`mkdir NewName` | Creates a new folder within the current folder with the name NewFolder |
+<br>
 
-```
-mkdir FolderName              Creates a new folder within the current folder with the name NewFolder 
-```
 ___
 
+## Move
+The `Move Directory` command is used to move and rename files and directories.
+| Input  | Side Effect |
+|-----------------|--------|
+|`mv Name NewName`|renames 'Name' to 'NewName'|
+|`mv Name ~/Name`|Moves the Name file/folder from the current directory to <br> user's home directory.|
+|`mv Name Subdir/Name`|Moves Name file/folder to 'Subdir/Name' relative to the <br> working directory |
+|`mv Name Subdir`|Same as the previous command, Name is implied to be <br> the same.|
+|`mv Name Subdir/NewName`|Moves 'Name' to 'Subdir' named  'NewName'|
+<br>
 
 
+___
 
-`mkdir`   make directory
+## Remove
+The `Remove` used for deleting files and folders from the directory tree. This type of deletion is permanent, as oppsed to placing a file inside the trash bin.
+| Input  | Side Effect |
+|-----------------|--------|
+|`rm file.txt` | Deletes the file with name file.txt within working directory |
+|`rm -R DirName` | Deletes the subdirectory with name DirName, utilizes the `-R` flag|
+<br>
 
-> `mkdir NewFolder` creates a new folder within the current folder with the name NewFolder 
+---
 
-`mv`         move
+## Echo
+The `Echo` command returns the string passed to it.
+| Input  | Return |
+|--------|--------|
+| `echo String` | The terminal will return the given String |
+<br>
 
-`rm` 	    remove: used for deleting files and folders from the directory tree. This type of deletion is permanent, as oppsed to placing a file inside the trash bin     
+---
 
->`rm new_file.txt` deletes a file
->
->`rm -R new_directory` deletes a directory, utilizes the `-R` flag in conjuction with the `rm` command
+## Say
+The `Say` command causes the terminal to audible receite the string passed to it.
+| Input  | Side Effect |
+|-----------------|--------|
+|`Say String` | The computer will audible recite the String, like in The Office episode|
+<br>
 
-`echo`
+---
 
-> `echo String` causes the computer to return the string in the terminal
-
-`say`
-
-> `say Sting` causes the computer to speak the given string aloud
-
-`touch`   touch: command that creates files and can also be used to adjust file timestamps
-
-> `touch NewFile.txt` creates a file of type text `txt` with the name `NewFile`
+## Touch
+The `Touch` command is used to create a new file or directory
+| Input  | Side Effect |
+|-----------------|--------|
+| `touch file.ext` | create a file in the working directory names file.ext |
+| `touch NewName` | create a directory in the working directory with the name NewName|
+<br>
  
+---
+
 <br>
 <br>
 <br>
 
-# TO BE FORMATTED
+# Under Construction
 
 `man`
 
@@ -157,5 +185,5 @@ Now every time you want to clear the screen, instead of typing in “clear”, y
 
 ## Bash Command Quick Reference Table
 
-| Command Name | Terminal Input | Return | Side Effect |
-| --- | --- | --- | ---| 
+| Command Name | Terminal Input | Output| Output Description |
+| --- | --- | --- | ---  
