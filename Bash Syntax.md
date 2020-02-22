@@ -21,9 +21,10 @@ with code blocks
 |---|---|
 
 with code quotes
-
-|`pwd`  |`causes the terminal to output the folder address of the current folder` |
+| | |
 |---|---|
+|`pwd`  |`causes the terminal to output the folder address of the current folder` |
+
 
 ___
 ## *List_Contents*
