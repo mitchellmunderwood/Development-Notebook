@@ -1,8 +1,17 @@
 # Bash Syntax
 ## Table of Contents 
-[Change_Directory](#Change_Directory) <br>
 [Print_Working_Directory](#Print_Working_Directory) <br>
-...etc...
+[List](#List) <br>
+[Change_Directory](#Change_Directory) <br>
+[Open](#Open) <br>
+[Make_Directory](#Make_Directory) <br>
+[Move](#Move) <br>
+[Remove](#Remove) <br>
+[Echo](#Echo) <br>
+[Say](#Say) <br>
+[Touch](#Touch) <br>
+[Reference Table](#Bash_Command_Quick_Reference_Table) <br>
+
 ___
 ## Helpful Concepts to Understand
 ### **Directories vs. Folders** <br>
@@ -12,7 +21,7 @@ Most people only use the term folder to refer to 'that thing that files are grou
 
 ### **Directory Paths**
 
-Directories are nested within each other. A 'Directory Path' is a sequence that listes the specific directories that connect the directory that you are in to another directory at a more nested level. It is represented as a sequence of directory names, seperated by a a forward slash `/`. Directory Paths output from the terminal will usually be the path from the highest level folder, known as the 'Home Directory', to the current folder you are in, known as the 'Working Directory'. Directory paths that start at the working directory and go elsewhere are uses in places such as hyperlinks within files.
+Directories are nested within each other. A 'Directory Path' is a sequence that listes the specific directories that connect the directory that you are in to another directory at a more nested level. It is represented as a sequence of directory names, seperated by a forward slash `/`. Directory Paths output from the terminal will usually be the path from the highest level folder, known as the 'Home Directory', to the current folder you are in, known as the 'Working Directory'. Directory paths that start at the working directory and go elsewhere are uses in places such as hyperlinks within files.
 
 [techterms.com reference](https://techterms.com/definition/path)
 ___
@@ -73,7 +82,7 @@ The `Make Directory` command is used to create a directory from the terminal.
 ___
 
 ## Move
-The `Move Directory` command is used to move and rename files and directories.
+The `Move` command is used to move and rename files and directories.
 | Input  | Side Effect |
 |-----------------|--------|
 |`mv Name NewName`|renames 'Name' to 'NewName'|
@@ -183,7 +192,7 @@ Now every time you want to clear the screen, instead of typing in “clear”, y
 
 ---
 
-## Bash Command Quick Reference Table
+## Bash_Command_Quick_Reference_Table
 
 | Command Name | Terminal Input | Output| Output Description |
 | --- | --- | --- | ---  
