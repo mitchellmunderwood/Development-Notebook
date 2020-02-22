@@ -19,14 +19,7 @@ ___
 
 | pwd  | causes the terminal to output the folder address of the current folder |
 | ---- | ------------------------------------------------------------ |
-|      |                                                              |
-| :--  | :--  |
-| ---- | ---- |
-|      |      |
 
-| pwd | causes the terminal to output the folder address of the current folder |
-
-| :-- |:--|
 
 ___
 ## *List_Contents*
