@@ -14,11 +14,8 @@ cd ~/Desktop    Changes to the root directory and then to the Desktop folder one
 ```
 ___
 
-
-
 ## *Print_Working_Directory*
 **pwd**
-
 ```
 pwd             causes the terminal to output the folder address of the current folder
 ```
@@ -27,19 +24,26 @@ ___
 **ls**
 
 ```
-ls             The Terminal will output a all files and folders within the current folder 
+ls              The Terminal will output a all files and folders within the current folder 
+```
+___
+## *Open_a_File,_Folder,_or_Application*
+**open** +stuff
+```
+open                          Opens the current folder in the finder
+open -a ApplicationName       Opens the application with the specied ApplicationName
+```
+___
+## *Make_a_Directory*
+**mkdir** + FolderName
+
+```
+mkdir FolderName              Creates a new folder within the current folder with the name NewFolder 
 ```
 ___
 
 
-## Update what is below into new format
 
-
-`open` 	open
-
-> `open .` opens the current folder in the finder
->
-> `open -a ApplicationName` opens the application with the specied ApplicationName
 
 `mkdir`   make directory
 
