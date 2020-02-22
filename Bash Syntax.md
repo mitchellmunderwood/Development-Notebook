@@ -17,8 +17,8 @@ ___
 ## *Print_Working_Directory*
 **pwd**
 
-| `pwd`  | `causes the terminal to output the folder address of the current folder` |
-| :--  | :--  |
+| ```pwd```  | ```causes the terminal to output the folder address of the current folder``` |
+
 
 
 ___
