@@ -16,15 +16,14 @@ ___
 
 ## *Print_Working_Directory*
 **pwd**
-with code blocks
-|```pwd```  |```causes the terminal to output the folder address of the current folder``` |
-|---|---|
 
-with code quotes
-| | |
-|---|---|
-|`pwd`  |`causes the terminal to output the folder address of the current folder` |
+| Command | Return | Side Effect |
+|---|---|---|
+|**`pwd`**  |the terminal returns the address of the current folder | |
 
+| Command | Return | Side Effect |
+|---|---|---|
+|`pwd`  |the terminal returns the address of the current folder | |
 
 ___
 ## *List_Contents*
