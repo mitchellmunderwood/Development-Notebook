@@ -291,7 +291,8 @@ ___
 
 [Adam-P Notes](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) <br>
 [Markdown Monster Documentation](https://markdownmonster.west-wind.com/docs/_4xs10gaui.htm) <br>
-[CommonMark Specs for Markdown rendered in Github](https://spec.commonmark.org/0.27/)
+[CommonMark Specs for Markdown rendered in Github](https://spec.commonmark.org/0.27/) <br>
+
 ---
 
 
