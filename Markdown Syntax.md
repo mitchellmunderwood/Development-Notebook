@@ -1,6 +1,8 @@
-## **Markdown Syntax**
+# **Markdown Syntax**
+[Development Notebook](Table%20of%20Contents.md)
+
 ---
-### Table of Contents
+## Table of Contents
 [Header](<#Headers>) <br>
 [Italics](#Italics) <br>
 [Boldface](#Boldface) <br>
