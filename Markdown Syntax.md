@@ -1,8 +1,8 @@
-# **Markdown Syntax**
+# **Markdown_Syntax**
 [Development Notebook](Table%20of%20Contents.md)
 
 ---
-## Table of Contents
+## Table_of_Contents
 [Header](<#Headers>) <br>
 [Italics](#Italics) <br>
 [Boldface](#Boldface) <br>
@@ -295,4 +295,5 @@ ___
 
 ---
 
+[Top of Page](#Markdown_Syntax.)
 
