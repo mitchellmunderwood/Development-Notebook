@@ -295,5 +295,5 @@ ___
 
 ---
 
-[Top of Page](#Markdown_Syntax.)
+[Top of Page](#Markdown_Syntax)
 
