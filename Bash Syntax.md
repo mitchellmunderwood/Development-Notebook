@@ -1,5 +1,11 @@
-# Bash Syntax
-## Table of Contents 
+# Bash_Syntax
+
+[Development Notebook](Table%20of%20Contents.md)
+
+___
+
+## Table_of_Contents 
+[Helpful_Concepts_to_Understand](#Helpful_Concepts_to_Understand) <br>
 [Print_Working_Directory](#Print_Working_Directory) <br>
 [List](#List) <br>
 [Change_Directory](#Change_Directory) <br>
@@ -13,7 +19,7 @@
 [Reference Table](#Bash_Command_Quick_Reference_Table) <br>
 
 ___
-## Helpful Concepts to Understand
+## Helpful_Concepts_to_Understand
 ### **Directories vs. Folders** <br>
 Most people only use the term folder to refer to 'that thing that files are grouped together in on my computer'. Folders can do other things than just store files and are not exclusively used that way. The folders that are used specifcally to store files have a specific name, and that is 'directory'.
 
@@ -57,9 +63,6 @@ The `Change Directory` command is how you change the working directory to anothe
 |`cd ~/Docs` |The working directory starts at the home directory and the <br> transitions down to the Docs folder. When navigating to a <br> folder from the home directory, the '~' is required.|
 <br>
 
-___
-
-Reformatt what is below in above style
 
 ---
 
@@ -132,26 +135,57 @@ The `Touch` command is used to create a new file or directory
 <br>
  
 ---
+## Manual
+
+The `Manual` command is used to look up the the specifications of commands within the terminal documentation for the specific command that is looked up.
+
+| Input  | Return |
+|-----------------|--------|
+| `man rm` | Returns a documentation entry for the `Remove` command from the terminal <br> documentation.  |
+<br>
+
+---
+
+## Alias (Incomplete)
+
+
+___
+
+## Global_Regular_Expression_Print (Incomplete)
+
+The `Global Regular Expression Print` command is a powerful command that searches text for a pattern prescribed by the user and prints out any found instances of that pattern. 
+
+| Input  | Return |
+|-----------------|--------|
+|`grep ..` | | 
 
 <br>
-<br>
-<br>
 
-# Under Construction
+___
 
-`man`
+ ## Remove_Directories (Incomplete)
 
-`grep`
 
-`rmdir`
+| Input  | Return |
+|-----------------|--------|
+|`rmdir` | | 
+
+___
+
 
 `locate`
 
+___
+
 `less`
+
+___
 
 `compgen`
 
-https://www.cyberciti.biz/open-source/command-line-hacks/compgen-linux-command/
+___
+
+
 
 `cat`
 
@@ -173,11 +207,9 @@ https://www.cyberciti.biz/open-source/command-line-hacks/compgen-linux-command/
 
 `sleep`
 
-`alias`
 
 # How to create your own custom Bash commands
 
-https://www.educative.io/blog/bash-shell-command-cheat-sheet
 
 Custom commands in Bash are known as “aliases”. Aliases are essentially an abbreviation, or a means to avoid typing a long command sequence. They can save a great deal of typing at the command line so you can avoid having to remember complex combinations of commands and options. There is one caveat to using aliases, and that is to be sure you don’t overwrite any keywords.
 
@@ -196,3 +228,15 @@ Now every time you want to clear the screen, instead of typing in “clear”, y
 
 | Command Name | Terminal Input | Output| Output Description |
 | --- | --- | --- | ---  
+<br>
+
+____
+
+## References
+
+[Top 25 Commands and Creating Custom Commands](https://www.educative.io/blog/bash-shell-command-cheat-sheet)
+
+[Command Line Hacks](https://www.cyberciti.biz/open-source/command-line-hacks/compgen-linux-command/)
+
+---
+[Top of Page](#Bash_Syntax)
