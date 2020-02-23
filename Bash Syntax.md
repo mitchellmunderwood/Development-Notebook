@@ -5,18 +5,42 @@
 ___
 
 ## Table_of_Contents 
+### Basic Concepts
 [Helpful_Concepts_to_Understand](#Helpful_Concepts_to_Understand) <br>
+
+### Directory_Navigation
+
 [Print_Working_Directory](#Print_Working_Directory) <br>
 [List](#List) <br>
 [Change_Directory](#Change_Directory) <br>
-[Open](#Open) <br>
+
+### Directory_Adjustments
+
 [Make_Directory](#Make_Directory) <br>
+[Touch](#Touch) <br>
+[Copy](#Copy)<br>
 [Move](#Move) <br>
 [Remove](#Remove) <br>
+
+### Opening_and_Viewing
+
+[Open](#Open) <br>
+[Less](#Less) <br>
+[Head](#Head) <br>
+[Tail](#Tail)<br>
+
+### Using_the_Terminal
+
+[Manual](#Manual) <br>
+[Exit](#Exit)<br>
+[History](#History)<br>
+[Clear](#Clear)<br>
 [Echo](#Echo) <br>
 [Say](#Say) <br>
-[Touch](#Touch) <br>
-[Reference Table](#Bash_Command_Quick_Reference_Table) <br>
+
+### Reference
+
+[References](#References) <br>
 
 ___
 ## Helpful_Concepts_to_Understand
@@ -38,7 +62,7 @@ The `Print Working Directory` command will return the directory path of the work
 
 | Input | Return |
 |---|---|
-|`pwd`  |the terminal returns the address of the working directory <br> relative to the home directory | None |
+|`pwd`  |the terminal returns the address of the working directory <br> relative to the home directory | 
 <br>
 
 ___
@@ -63,23 +87,32 @@ The `Change Directory` command is how you change the working directory to anothe
 |`cd ~/Docs` |The working directory starts at the home directory and the <br> transitions down to the Docs folder. When navigating to a <br> folder from the home directory, the '~' is required.|
 <br>
 
-
----
-
-## Open
-The `Open` command is used to open applications and files from the Terminal.
-| Input  | Side Effect |
-|-----------------|--------|
-| `open`| Opens the working directory in the finder|
-| `open -a AppName`| Opens the application with the name AppName|
-<br>
-
 ___
 ## Make_Directory
 The `Make Directory` command is used to create a directory from the terminal.
 | Input  | Side Effect |
 |-----------------|--------|
 |`mkdir NewName` | Creates a new folder within the current folder with the name NewFolder |
+<br>
+
+---
+## Touch
+The `Touch` command is used to create a new file or directory
+| Input  | Side Effect |
+|-----------------|--------|
+| `touch file.ext` | create a file in the working directory names file.ext |
+| `touch NewName` | create a directory in the working directory with the name NewName|
+<br>
+ 
+---
+
+## Copy
+
+The `Copy` command is used to create copies of files and folders.
+
+| Input  | Side Effect |
+|-----------------|--------|
+|`cp Name NewName` | The terminal will create a copy of the Name file <br> and save it as NewName|
 <br>
 
 ___
@@ -95,7 +128,6 @@ The `Move` command is used to move and rename files and directories.
 |`mv Name Subdir/NewName`|Moves 'Name' to 'Subdir' named  'NewName'|
 <br>
 
-
 ___
 
 ## Remove
@@ -107,6 +139,97 @@ The `Remove` used for deleting files and folders from the directory tree. This t
 <br>
 
 ---
+## Open
+The `Open` command is used to open applications and files from the Terminal.
+| Input  | Side Effect |
+|-----------------|--------|
+| `open`| Opens the working directory in the finder|
+| `open -a AppName`| Opens the application with the name AppName|
+<br>
+
+---
+
+## Less
+
+The `Less` command is used to view the contents of a text file without opening an editor.
+
+| Input  | Return |
+|-----------------|--------|
+|`less file.txt` | The terminal will show the contents of the file.|
+
+<br>
+
+___
+
+## Head
+
+The `Head` command will cause the terminal to return the first 10 lines of the file. This command is useful to analyze logs or text files that change frequently.
+
+| Input  | Return |
+|-----------------|--------|
+|`head file.txt` | The terminal will show the first ten lines of file.txt|
+<br> 
+
+---
+
+## Tail
+
+The `Tail` command will cause the terminal to return the last 10 lines of the file. This command is useful to analyze logs or text files that change frequently.
+
+| Input  | Return |
+|-----------------|--------|
+|`tail file.txt` | The terminal will show the last ten lines of file.txt|
+<br>
+
+---
+
+
+
+## Manual
+
+The `Manual` command is used to look up the the specifications of commands within the terminal documentation for the specific command that is looked up.
+
+| Input  | Return |
+|-----------------|--------|
+| `man rm` | Returns a documentation entry for the `Remove` command from the terminal <br> documentation.  |
+<br>
+
+
+
+---
+## Exit
+
+The `Exit` command will close a terminal window, end the execution of a shell script, or log you out of an SSH remote access session.
+
+| Input  | Side Effect |
+|-----------------|--------|
+|`exit` | The terminal window will close|
+<br>
+
+---
+
+## History 
+
+The `History` command outputs a list of previous commands.
+
+| Input  | Return |
+|-----------------|--------|
+|`history` | The terminal window will output a list of all previous commands|
+<br>
+
+
+---
+## Clear 
+
+The `Clear` command clears all previous commands and output from consoles and terminal windows.
+
+| Input  | Side Effect |
+|-----------------|--------|
+|`clear` | The terminal window will be cleared of all previous commands|
+<br>
+
+---
+
 
 ## Echo
 The `Echo` command returns the string passed to it.
@@ -121,113 +244,7 @@ The `Echo` command returns the string passed to it.
 The `Say` command causes the terminal to audible receite the string passed to it.
 | Input  | Side Effect |
 |-----------------|--------|
-|`Say String` | The computer will audible recite the String, like in The Office episode|
-<br>
-
----
-
-## Touch
-The `Touch` command is used to create a new file or directory
-| Input  | Side Effect |
-|-----------------|--------|
-| `touch file.ext` | create a file in the working directory names file.ext |
-| `touch NewName` | create a directory in the working directory with the name NewName|
-<br>
- 
----
-## Manual
-
-The `Manual` command is used to look up the the specifications of commands within the terminal documentation for the specific command that is looked up.
-
-| Input  | Return |
-|-----------------|--------|
-| `man rm` | Returns a documentation entry for the `Remove` command from the terminal <br> documentation.  |
-<br>
-
----
-
-## Alias (Incomplete)
-
-
-___
-
-## Global_Regular_Expression_Print (Incomplete)
-
-The `Global Regular Expression Print` command is a powerful command that searches text for a pattern prescribed by the user and prints out any found instances of that pattern. 
-
-| Input  | Return |
-|-----------------|--------|
-|`grep ..` | | 
-
-<br>
-
-___
-
- ## Remove_Directories (Incomplete)
-
-
-| Input  | Return |
-|-----------------|--------|
-|`rmdir` | | 
-
-___
-
-
-`locate`
-
-___
-
-`less`
-
-___
-
-`compgen`
-
-___
-
-
-
-`cat`
-
-`|`
-
-`head`
-
-`tail`
-
-`exit`
-
-`chmod`
-
-`clear`
-
-`copy`
-
-`kill`
-
-`sleep`
-
-
-# How to create your own custom Bash commands
-
-
-Custom commands in Bash are known as “aliases”. Aliases are essentially an abbreviation, or a means to avoid typing a long command sequence. They can save a great deal of typing at the command line so you can avoid having to remember complex combinations of commands and options. There is one caveat to using aliases, and that is to be sure you don’t overwrite any keywords.
-
-Syntax: `alias` alias_name = “command_to_run”
-
-A very simple example would look like this:
-
-`alias` c = “clear”
-
-Now every time you want to clear the screen, instead of typing in “clear”, you can just type ‘c’ and you’ll be good to go.
-
-
----
-
-## Bash_Command_Quick_Reference_Table
-
-| Command Name | Terminal Input | Output| Output Description |
-| --- | --- | --- | ---  
+|`Say String` | The computer will audible recite the String, <br> like in The Office episode|
 <br>
 
 ____
@@ -240,3 +257,6 @@ ____
 
 ---
 [Top of Page](#Bash_Syntax)
+
+
+
