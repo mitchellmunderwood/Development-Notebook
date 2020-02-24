@@ -1,3 +1,11 @@
+---
+markdown:
+  image_dir: assets/
+  path: git.md
+  ignore_from_front_matter: true
+  absolute_image_path: false
+---
+
 # Git_Syntax
 [Developement Notebook](Table%20of%20Contents.md)
 _______________________________________________________
@@ -30,14 +38,6 @@ The `Command` command wil... <br>
 <br>
 
 _______________________________________________________
-
-```mermaid
-graph LR;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 
 ## Terms to Catalog
 
