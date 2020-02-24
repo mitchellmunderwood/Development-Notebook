@@ -1,5 +1,7 @@
 # Character Dictionary
+[Developement Notebook](Table%20of%20Contents.md)
 
+---
 
 ## Character Names
 
