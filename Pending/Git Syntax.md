@@ -30,7 +30,47 @@ Push Changes to a Remote Repo <br>
 
 [References](#References)
 _______________________________________________________
-## Command_Catalog_Entry_Format
+## Initiate
+The `Initiate` command wil... <br>
+| Input | Return | 
+|---|---|
+|`git init`  |description | 
+<br>
+
+_______________________________________________________
+## Add
+The `Add` command wil... <br>
+| Input | Return | 
+|---|---|
+|`git add`  |description | 
+<br>
+
+_______________________________________________________
+## Status
+The `Status` command wil... <br>
+| Input | Return | 
+|---|---|
+|`git status`  |description | 
+<br>
+
+_______________________________________________________
+## Commit
+The `Commit` command wil... <br>
+| Input | Return | 
+|---|---|
+|`git commit -m "<string>"`  |description | 
+<br>
+
+_______________________________________________________
+## Log
+The `Log` command wil... <br>
+| Input | Return | 
+|---|---|
+|`git log`  |description | 
+<br>
+
+_______________________________________________________
+## Remote
 The `Command` command wil... <br>
 | Input | Return | 
 |---|---|
@@ -38,20 +78,22 @@ The `Command` command wil... <br>
 <br>
 
 _______________________________________________________
+## Push
+The `Push` command wil... <br>
+| Input | Return | 
+|---|---|
+|`git push <remote> <branch>`  |description | 
+<br>
+
+_______________________________________________________
 
 ## Terms to Catalog
 
-`git init` 
 
-`git add` 
 
 `git clone`
 
-`git commit`
-
 `git pull`
-
-`git push`
 
 `git checkout`
 
@@ -59,15 +101,22 @@ _______________________________________________________
 
 `git reset`
 
-`git remote`
-
-`git log`
-
 _______________________________________________________
 
 ## Sequence_Catalog_Entry_Format
 
+Description of sequence and result
 
+```bash
+command
+#comment
+return
+```
+
+Description of instance 1 <br>
+![](/git_status.png)
+
+Description of instance 2 <br>
 
 _______________________________________________________
 ## Sequences to Catalog
@@ -77,7 +126,7 @@ _______________________________________________________
 mkdir NewFolder
 git init
 touch NewFile.txt
-~open the file and adjust the content~
+#open the file and adjust the content
 git add
 git commit
 ```
