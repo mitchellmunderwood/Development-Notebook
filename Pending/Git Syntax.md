@@ -86,51 +86,65 @@ The `Log` command will make the terminal output a list of all commits stored in 
 
 _______________________________________________________
 ## Remote
-The `Command` command wil... <br>
+The `Command` command is used to store the online address of a remote repository. Once changes are commited to a local repository, these commits can be sent to the location of the remote repo using the `Push` command detailed later. <br>
 | Input | Return | 
 |---|---|
-|`command`  |description | 
+|`git remote`  |The terminal will output the list of remote repos.|
+|`git remote -v`  |The terminal will output the list of remote repos <br> with URL addresses listed.|
+|`git remote add <name> <address>`  |The remote repo name `<name>` will be recorded <br> and addressed to `<address>`. | 
+|`git remote rename <old> <new>`|The name of the selected remote will be changed.|
+|`git remote remove <name>` |The remote will be removed from the local repo.|
+|`git remote set-url <name> <newurl>` |The address of the selected remote will be changed.|
 <br>
 
 _______________________________________________________
 ## Push
-The `Push` command wil... <br>
+The `Push` command send all commits in the local repo to the designated remote repo. <br>
 | Input | Return | 
 |---|---|
-|`git push <remote> <branch>`  |description | 
+|`git push <remote> <branch>`  |All commits from `<branch>` will be pushed <br> to the listed `<remove>` repo.| 
 <br>
 
 _______________________________________________________
 ## Clone
-The `Clone` command wil... <br>
+The `Clone` command will copy a remote repository to the working directory <br>
 | Input | Return | 
 |---|---|
-|`git `  |description | 
+|`git clone <url>`  |The remote repo at <url> will be copied to the working directory | 
 <br>
 
 _______________________________________________________
 ## Pull
-The `Pull` command wil... <br>
+The `Pull` command will fetch content from a remote repo and update the local repo to match the content. <br>
 | Input | Return | 
 |---|---|
-|`git `  |description | 
+|`git pull remote`  |The remote content will be merged into the local repo| 
+<br>
+
+_______________________________________________________
+## Branch
+The `Branch` command will make the terminal output the list of branches in the repo and show which branch you are currently on. <br>
+| Input | Return | 
+|---|---|
+|`git branch`  |The Terminal will output the list of branches and the current branch.| 
 <br>
 
 _______________________________________________________
 ## Checkout
-The `Checkout` command wil... <br>
+The `Checkout` command will provide details on the selected branch. <br>
 | Input | Return | 
 |---|---|
-|`git`  |description | 
+|`git checkout <branch>`  |The terminal will output details about the selected `<branch>`.| 
 <br>
 
 _______________________________________________________
 ## Merge
-The `Merge` command wil... <br>
+The `Merge` command will merge all commits from the selected branch into the master branch . <br>
 | Input | Return | 
 |---|---|
-|`git`  |description | 
+|`git merge <branch>`  |All commits in the `<branch>` will be moved into the master branch. | 
 <br>
+
 _______________________________________________________
 
 ## Sequence_Catalog_Entry_Format
@@ -214,6 +228,7 @@ ____________________________________________________________
 
 [joshnh Git Commands](https://raw.githubusercontent.com/joshnh/Git-Commands/master/READMEpt.md)
 
+[Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 
 ____________________________________________________________
 
