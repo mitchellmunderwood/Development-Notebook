@@ -35,7 +35,7 @@ The `<h3>` is the opening tag and specifies the bucket will be `Header #3` eleme
 _______________________________________________________
 ## HTML Element
 _______________________________________________________
-### Headers
+### Header Elements
 ```html
 <h1> Header 1 </h1>
 <h2> Header 2 </h2>
@@ -61,13 +61,76 @@ _______________________________________________________
 
 _______________________________________________________
 
-## Examples:
+## Boldface Element:
+The tag name for bondface elements is `strong`. It seems a strange and unintuitive thing to use, but that is just how it is unfortunately.
+
+```html
+<strong> This is how to bold something in html </strong>
+```
+<strong> This is how to bold something in html </strong>
+
+_______________________________________________________
+
+## Italic Element:
+Same deal as boldface, `em` is a strange and unintuitive name to me, but that is just the way it is, sadly.
+
+```html
+<em> This is how to italicize something in html </em>
+```
+<em> This is how to italicize something in html </em>
+
+_______________________________________________________
+
+## Newline Element 
+Unlike other elements so far, this one has no content and therefore only requires an opening tag.
+```html
+This will be a line above<br>and this will be a line below
+```
+This will be a line above<br> and this will be a line below
+
+_______________________________________________________
+## Image Element 
+```html
+
+```
 
 
+_______________________________________________________
+## Anchor Element (aka a *Link*)
+```html
 
+```
+_______________________________________________________
+## List Elements
+List elements come in two styles out of the box, ordered list, and unordered lists. The content of list elements are html elements called 'list items'. Unordered lists are rendered will bullets. The bullet character used can be stylistically adjusted using CSS. THe ordered lists are rendered with numbers. 
 
+### Ordered List Element
+```html
+<ol>
+<li> Item 1 </li>
+<li> Item 2 </li>
+<li> Item 3 </li>
+</ol>
+```
+<ol>
+<li> Item 1 </li>
+<li> Item 2 </li>
+<li> Item 3 </li>
+</ol>
 
-
+### Unordered List Element
+```html
+<ul>
+<li> Item 1 </li>
+<li> Item 2 </li>
+<li> Item 3 </li>
+</ul>
+```
+<ul>
+<li> Item 1 </li>
+<li> Item 2 </li>
+<li> Item 3 </li>
+</ul>
 
 
 _______________________________________________________
