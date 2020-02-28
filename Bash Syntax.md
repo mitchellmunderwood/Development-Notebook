@@ -38,6 +38,10 @@ ___
 [Echo](#Echo) <br>
 [Say](#Say) <br>
 
+### Questions
+
+[Open_Questions](#Open_Questions) <br>
+
 ### Reference
 
 [References](#References) <br>
@@ -247,7 +251,11 @@ The `Say` command causes the terminal to audible receite the string passed to it
 |`Say String` | The computer will audible recite the String, <br> like in The Office episode|
 <br>
 
-____
+_____
+
+## Open_Questions
+
+_____
 
 ## References
 

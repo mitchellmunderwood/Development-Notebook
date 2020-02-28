@@ -29,8 +29,10 @@ _______________________________________________________
 [Clone_a_Repo](#Clone_a_Repo) <br>
 [Delete_a_Local_Repo](#Delete_a_Local_Repo) <br>
 
-**References**
+**Questions** <br>
+[Open_Questions](#Open_Questions)
 
+**References** <br>
 [References](#References)
 _______________________________________________________
 ## Git_Concepts
@@ -199,6 +201,9 @@ rm -rf .git #remove all git files within Newfolder
 cd .. #go up a level
 rm -R NewFolder #delete the folder
 ```
+____________________________________________________________
+## Open_Questions
+
 ____________________________________________________________
 ## References
 

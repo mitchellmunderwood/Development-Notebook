@@ -3,6 +3,7 @@
 
 ---
 ## Table_of_Contents
+### Markdown Tags
 [Header](<#Headers>) <br>
 [Italics](#Italics) <br>
 [Boldface](#Boldface) <br>
@@ -20,6 +21,12 @@
 [Backslash_Escapes](#Backslash_Escapes) <br>
 [Lines_Across](#Lines_Across) <br>
 [New_Lines](#New_lines) <br>
+
+### Questions
+
+[Open_Questions](#Open_Questions)
+
+### References
 [References](#References) <br>
 
 ---
@@ -284,6 +291,10 @@ The page break operator from HTML is supported in markdown. Just add at the end 
 This text will be <br> on the next line
 ```
 This text will be <br> on the next line
+
+___
+
+## Open_Questions
 
 ___
 
