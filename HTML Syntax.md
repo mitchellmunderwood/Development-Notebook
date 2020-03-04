@@ -169,6 +169,15 @@ All html elements are nested within a single element know as the 'HTML' element.
 </html>
 ```
 _______________________________________________________
+## Attributes
+
+### ID
+### Class
+### src
+### alt
+### href
+
+_______________________________________________________
 ## Open_Questions
 
 
