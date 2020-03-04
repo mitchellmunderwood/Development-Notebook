@@ -54,8 +54,54 @@ Attribute selectors (select elements based on an attribute or attribute value) <
 
 
 _________________________________________
+### Simple Selectors
 
-## Property-Value Pairs
+#### Class Selectors
+`.class`
+#### ID Selectors
+`#id`
+#### Element Selectors
+`element`
+#### Multiple Element Selectors
+`element, element`
+#### Universal Element Selector
+`*`
+_________________________________________
+### Combinator Selectors
+#### Descendant Selector
+(space)
+#### Child Selector
+`>`
+#### Adjacent Sibling Selector
+`+`
+#### General Sibling Selector
+`~`
+_________________________________________
+### Pseudo-Class Selectors
+Used to select elements based on there state (clicked, unclicked, hovered over, etc....related to JS)
+
+https://www.w3schools.com/css/css_pseudo_classes.asp
+_________________________________________
+### Pseudo-Elements Selectors
+Use to style specific "parts" of an element
+::first-letter
+::first-line
+
+https://www.w3schools.com/css/css_pseudo_elements.asp
+
+_________________________________________
+### Attribute Selectors
+https://www.w3schools.com/css/css_attribute_selectors.asp
+_________________________________________
+## Properties & Values
+
+
+
+_________________________________________
+### Position
+
+![Positioning](Assets/css_positioning.png)
+
 
 _________________________________________
 
@@ -66,3 +112,18 @@ _________________________________________
 _________________________________________
 
 [Top of Page](#CSS_Syntax)
+
+
+https://css-tricks.com/fighting-the-space-between-inline-block-elements/
+
+https://zellwk.com/blog/9-important-css-properties-you-must-know/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Inline_formatting_context
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Intro_to_formatting_contexts
+
+https://internetingishard.com/html-and-css/advanced-positioning/
