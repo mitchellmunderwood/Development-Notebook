@@ -170,15 +170,24 @@ All html elements are nested within a single element know as the 'HTML' element.
 ```
 _______________________________________________________
 ## Common Attributes
-_______________________________________________________
+
 ### ID
+
+The ID attribute gives a unique identifying to a single element. It is most often assigned to an element so that CSS  rule-sets can be applied to that element specifically.
+
+
 _______________________________________________________
 ### Class
+
+The class attribute gives an identifier to a group of elements. It is used to assign CSS rule-sets to that group.
 _______________________________________________________
 ### Title
+
+The title attribute assigns a string to an element. This string will appear when the mouse hovers over the element.
 _______________________________________________________
 ### Style
 
+The style attribute assigns CSS rule-sets to an element. The CSS rule-sets assigned in the style-attribute manner will override CSS rule-sets assigned in a style-element manner or seperate CSS file.
 _______________________________________________________
 ## Open_Questions
 
